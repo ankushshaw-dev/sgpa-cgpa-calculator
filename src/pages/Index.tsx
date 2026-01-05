@@ -33,7 +33,7 @@ export default function Index() {
         <div className="container mx-auto px-4 py-12 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
             <GraduationCap className="h-12 w-12" />
-            <h1 className="text-4xl md:text-5xl font-bold">MAKAUT R25 SGPA Calculator</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">MAKAUT R25 SGPA/CGPA Calculator</h1>
           </div>
           <p className="text-lg opacity-90 max-w-2xl mx-auto">
             B.Tech CSE Curriculum · Calculate your SGPA & CGPA for all semesters
