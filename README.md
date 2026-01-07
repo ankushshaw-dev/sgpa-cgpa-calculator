@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# 🎓 MAKAUT R25 SGPA/CGPA Calculator
 
-## Project info
+> **Modern web calculator** specifically designed for *Maulana Abul Kalam Azad University of Technology (MAKAUT)* students following the **R25 regulations**.
 
-**URL**: https://lovable.dev/projects/01e9d10c-74c1-41fb-9665-24881c9a5992
+Select semesters **1-8**, input your grades and credits, and compute your **SGPA** and **cumulative CGPA** instantly with a high-performance, academic dashboard interface.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+* 🟣 **8-Semester Support**: Matches the standard MAKAUT B.Tech academic structure.
+* 💼 **Placement Eligibility Check**: Check available company for palcement according to your CGPA.
+* 🎨 **Modern UI**: Purple-cyan gradient theme inspired by professional academic dashboards.
+* 📱 **Fully Responsive**: Optimized for mobile and desktop viewing.
+* ⚡ **Real-time Calculation**: Instant results using official MAKAUT grade point mappings (O=10, A+=9, etc.).
+  
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/01e9d10c-74c1-41fb-9665-24881c9a5992) and start prompting.
+## 🚀 Live Demo
 
-Changes made via Lovable will be committed automatically to this repo.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sgpa-cgpa-calculator-omega.vercel.app/)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **Frontend:** React / Next.js (Exported from Lovable.dev)
+* **Deployment:** Vercel (Global CDN)
+* **Design:** Custom CSS gradients + Bold Typography
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ⚙️ Quick Setup
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Follow these steps to get the project running on your local machine:
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clone the repo
+git clone [https://github.com/ankushshaw-dev/sgpa-cgpa-calculator.git](https://github.com/ankushshaw-dev/sgpa-cgpa-calculator.git)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Enter the directory
+cd sgpa-cgpa-calculator
+
+# Install dependencies
+npm install
+
+# Run locally
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open http://localhost:3000 in your browser to see the result!
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📊 MAKAUT R25 Grade Table
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The calculator uses the following point system for calculations:
 
-## What technologies are used for this project?
+| Grade             | Points |
+|-------------------|--------|
+| O (Outstanding)   | 10     |
+| A+ (Excellent)    | 9      |
+| A (Very Good)     | 8      |
+| B+ (Good)         | 7      |
+| B (Above Average) | 6      |
+| C+ (Average)      | 5      |
+| C (Below Average) | 4      |
+| D (Pass)          | 3      |
+| F (Fail)          | 0      |
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌐 Deployment
 
-## How can I deploy this project?
+This project is optimized for Vercel:
+  * Push your changes to the main branch on GitHub.
+  * Connect your GitHub repo to the Vercel Dashboard.
+  * Vercel will handle the build and deployment automatically.
 
-Simply open [Lovable](https://lovable.dev/projects/01e9d10c-74c1-41fb-9665-24881c9a5992) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🖼️ Adding Custom Favicon
+* Place your favicon.png in the /public/ folder.
+* Update your <head> to include: <link rel="icon" href="/favicon.png" />.
+* Deploy changes: git add . && git commit -m "Add favicon" && git push.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 👨‍💻 About the Authors
+Ankush Shaw CSE Student & Web Developer 📧 ankushshaw764@gmail.com <br>
+Ashish Chaurasia CSE Student & Web Developer 📧 chaurasiaashish483@gmail.com
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+<div align="center">
+
+⭐ Star this repo if you found it helpful! 💬 Contributions and feedback are always welcome.
+
+</div>
+
